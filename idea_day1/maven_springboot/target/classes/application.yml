@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: prod
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 50MB
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/dangdang
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  jsp-servlet:
+    init-parameters:
+      development: true
+mybatis:
+  mapper-locations: classpath:mapper/*DaoMapper.xml
+  type-aliases-package: com.baizhi.entity

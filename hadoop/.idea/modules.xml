@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hadoop_Mapreduce/Hadoop_Mapreduce.iml" filepath="$PROJECT_DIR$/Hadoop_Mapreduce/Hadoop_Mapreduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs_day2/hdfs_day2.iml" filepath="$PROJECT_DIR$/hdfs_day2/hdfs_day2.iml" />
+    </modules>
+  </component>
+</project>

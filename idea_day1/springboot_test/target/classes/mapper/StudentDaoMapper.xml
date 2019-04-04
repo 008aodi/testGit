@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.StudentDao">
+    <resultMap id="student" type="Student">
+        <id column="sid" property="id"></id>
+        <result column="sname" property="name"></result>
+        <result column="age" property="age"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="city_id" property="cityId"></result>
+        <result column="clazz_id" property="clazzId"></result>
+        <result column="group_id" property="groupId"></result>
+        <result column="comment" property="comment"></result>
+        <association property="clazz" javaType="Clazz">
+            <id column="clid" property="id"></id>
+            <result column="clname" property="name"></result>
+        </association>
+        <association property="city" javaType="City">
+            <id column="ciid" property="id"></id>
+            <result column="ciname" property="name"></result>
+        </association>
+        <collection property="tags" ofType="Tag">
+            <id column="tid" property="id"></id>
+            <result column="tname" property="name"></result>
+            <result column="status" property="status"></result>
+        </collection>
+    </resultMap>
+
+    <select id="findAllStudent" resultMap="student" parameterType="Student">
+        SELECT
+            sid,sname,age,birthday,city_id,clazz_id,group_id,comment,
+               clid,clname,
+               ciid,ciname,
+               tid,tname,status
+        FROM (SELECT sid,sname,age,birthday,city_id,clazz_id,group_id,comment,clid,clname,ci.id ciid,ci.name ciname
+              FROM city ci INNER  JOIN (select s.id sid,s.name sname,s.age,s.birthday,s.city_id,s.clazz_id,s.group_id,s.comment,cl.id clid,cl.name clname from
+                  student s INNER JOIN   clazz cl on s.clazz_id=cl.id)scl ON scl.city_id=ci.id )scc
+                 INNER JOIN (SELECT i.tag_id,i.student_id,t.id tid,t.name tname,t.status from items i inner JOIN tag t on i.tag_id=t.id) it
+                            ON it.student_id=scc.sid
+              <where>
+                  <if test="id!=null">scc.sid=#{id}</if>
+              </where>
+    </select>
+</mapper>
+

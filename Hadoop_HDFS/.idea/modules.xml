@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../jbt-communication/jbt-communication.iml" filepath="$PROJECT_DIR$/../jbt-communication/jbt-communication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jbt-communication/jbt-online.iml" filepath="$PROJECT_DIR$/../jbt-communication/jbt-online.iml" />
+    </modules>
+  </component>
+</project>

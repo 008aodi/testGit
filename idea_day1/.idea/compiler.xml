@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hadoop_hdfs" />
+        <module name="test_Lucene" />
+        <module name="TestCoreJava" />
+        <module name="ZookeeperDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dangdang" target="1.8" />
+      <module name="hadoop_hdfs" target="1.8" />
+      <module name="java_testShiro" target="1.8" />
+      <module name="maven_java" target="1.7" />
+      <module name="maven_springboot" target="1.8" />
+      <module name="maven_web" target="1.8" />
+      <module name="springboot_test" target="1.8" />
+      <module name="test_Lucene" target="1.8" />
+      <module name="TestCoreJava" target="1.5" />
+      <module name="ZookeeperDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

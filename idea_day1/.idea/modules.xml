@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestCoreJava/TestCoreJava.iml" filepath="$PROJECT_DIR$/TestCoreJava/TestCoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" filepath="$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dangdang/dangdang.iml" filepath="$PROJECT_DIR$/dangdang/dangdang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" filepath="$PROJECT_DIR$/hadoop_hdfs/hadoop_hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_springboot/maven_springboot.iml" filepath="$PROJECT_DIR$/maven_springboot/maven_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_Lucene/test_Lucene.iml" filepath="$PROJECT_DIR$/test_Lucene/test_Lucene.iml" />
+    </modules>
+  </component>
+</project>

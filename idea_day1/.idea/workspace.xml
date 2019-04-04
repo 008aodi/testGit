@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maven_web:war" />
+      <artifact name="maven_web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="ZookeeperDemo" />
+      <module name="hadoop_hdfs" />
+      <module name="test_Lucene" />
+      <module name="TestCoreJava" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ed3a3c3-3563-4375-b81c-fdcac909a706" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/maven_java/target/" />
+    <ignored path="$PROJECT_DIR$/maven_web/target/" />
+    <ignored path="$PROJECT_DIR$/maven_springboot/target/" />
+    <ignored path="$PROJECT_DIR$/dangdang/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_test/target/" />
+    <ignored path="$PROJECT_DIR$/test_Lucene/target/" />
+    <ignored path="$PROJECT_DIR$/java_testShiro/target/" />
+    <ignored path="$PROJECT_DIR$/hadoop_hdfs/target/" />
+    <ignored path="$PROJECT_DIR$/ZookeeperDemo/target/" />
+    <ignored path="$PROJECT_DIR$/TestCoreJava/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCoreJava/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCoreJava/src/main/java/com/baizhi/TestHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="450" column="47" selection-start-line="450" selection-start-column="47" selection-end-line="450" selection-end-column="47" />
+              <folding>
+                <element signature="e#19296#19297#0" expanded="true" />
+                <element signature="e#19379#19380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/group/index.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/clazz/index.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/clazz/add.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/city/index.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/city/add.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/User.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/test/java/com/baizhi/TestDao.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/CaptchaController.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/resources/mapper/UserDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/login.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/City.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Clazz.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Tag.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Items.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/main/main.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Student.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/resources/mapper/StudentDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/index.jsp" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Group.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/resources/mapper/GroupDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/GroupDao.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Groups.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/test/java/com/junit/TestDao.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/detail.jsp" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/entity/Product.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/utils/DateUtil.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/pom.xml" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/test/java/com/baizhi/test/TestLucene.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/index.jsp" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/addProduct.jsp" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/dao/ProductDaoImpl.java" />
+        <option value="$PROJECT_DIR$/java_testShiro/pom.xml" />
+        <option value="$PROJECT_DIR$/hadoop_hdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/baizhi/CuratorFrameworkTests.java" />
+        <option value="$PROJECT_DIR$/TestCoreJava/pom.xml" />
+        <option value="$PROJECT_DIR$/TestCoreJava/src/main/java/com/baizhi/TestHashMap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ZookeeperDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="width" value="749" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548120065525" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/maven_springboot/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.68678164" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.splitter.proportion" value="0.22628458" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.baizhi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\hadoop_hdfs\src\main\resources" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\test_Lucene\src\main\webapp\baizhi" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\test_Lucene\src\main\webapp" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\test_Lucene\src\main\java\com\baizhi\utils" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\test_Lucene\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baizhi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\springboot_test\src\main\webapp" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\springboot_test\src\main\webapp\back" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\springboot_test\src\main\webapp\back\city" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\dangdang\src\main\resources\erwe" />
+      <recent name="E:\Users\Administrator\IdeaProjects\idea_day1\maven_web\src\main\resources\com.baizhi.mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestHashMap">
+    <configuration name="TestHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.TestHashMap" />
+      <module name="TestCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuratorFrameworkTests.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.CuratorFrameworkTests" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuratorFrameworkTests.testReadfData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.CuratorFrameworkTests" />
+      <option name="METHOD_NAME" value="testReadfData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuratorFrameworkTests.testWriteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.CuratorFrameworkTests" />
+      <option name="METHOD_NAME" value="testWriteData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLucene.testDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test_Lucene" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.test.TestLucene" />
+      <option name="METHOD_NAME" value="testDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="maven_java" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="maven_java" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maven_springboot [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/maven_springboot" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baizhi.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.88" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maven_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/maven_web_war_exploded" />
+          </settings>
+        </artifact>
+        <artifact name="maven_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cmfz" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_idea_day1_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="13205" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maven_web:war" />
+          <artifact name="maven_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestHashMap" />
+      <item itemvalue="JUnit.TestLucene.testDate" />
+      <item itemvalue="JUnit.CuratorFrameworkTests.testCreate" />
+      <item itemvalue="JUnit.CuratorFrameworkTests.testReadfData" />
+      <item itemvalue="JUnit.CuratorFrameworkTests.testWriteData" />
+      <item itemvalue="Maven.maven_springboot [spring-boot:run]" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Tomcat Server.Tomcat7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestHashMap" />
+        <item itemvalue="JUnit.CuratorFrameworkTests.testReadfData" />
+        <item itemvalue="JUnit.CuratorFrameworkTests.testWriteData" />
+        <item itemvalue="JUnit.CuratorFrameworkTests.testCreate" />
+        <item itemvalue="JUnit.TestLucene.testDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ed3a3c3-3563-4375-b81c-fdcac909a706" name="Default Changelist" comment="" />
+      <created>1545131202680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545131202680</updated>
+      <workItem from="1545131206143" duration="4015000" />
+      <workItem from="1545135286117" duration="2332000" />
+      <workItem from="1545137673218" duration="1190000" />
+      <workItem from="1545138899970" duration="2933000" />
+      <workItem from="1545179949191" duration="3242000" />
+      <workItem from="1545183290734" duration="189000" />
+      <workItem from="1545183749035" duration="3153000" />
+      <workItem from="1545209616798" duration="3299000" />
+      <workItem from="1545212965281" duration="301000" />
+      <workItem from="1545213300916" duration="100000" />
+      <workItem from="1545213442386" duration="516000" />
+      <workItem from="1545214004720" duration="5480000" />
+      <workItem from="1545220758999" duration="2210000" />
+      <workItem from="1545223282600" duration="1947000" />
+      <workItem from="1545225272546" duration="998000" />
+      <workItem from="1545226311772" duration="988000" />
+      <workItem from="1545228571892" duration="480000" />
+      <workItem from="1545265987985" duration="5795000" />
+      <workItem from="1545303259938" duration="5853000" />
+      <workItem from="1545309207702" duration="2699000" />
+      <workItem from="1545312884922" duration="818000" />
+      <workItem from="1545314170459" duration="4531000" />
+      <workItem from="1545318847099" duration="671000" />
+      <workItem from="1545319561142" duration="508000" />
+      <workItem from="1545320109261" duration="582000" />
+      <workItem from="1545347216163" duration="13416000" />
+      <workItem from="1545367115909" duration="77000" />
+      <workItem from="1545370900397" duration="1447000" />
+      <workItem from="1545380476495" duration="351000" />
+      <workItem from="1545390862744" duration="4120000" />
+      <workItem from="1545527545813" duration="4177000" />
+      <workItem from="1545532515031" duration="3301000" />
+      <workItem from="1545535897846" duration="577000" />
+      <workItem from="1545540474681" duration="133000" />
+      <workItem from="1545540647457" duration="8000" />
+      <workItem from="1545540698366" duration="173000" />
+      <workItem from="1545540911797" duration="47000" />
+      <workItem from="1545541015212" duration="97000" />
+      <workItem from="1545541308992" duration="188000" />
+      <workItem from="1545543991491" duration="3916000" />
+      <workItem from="1545548004974" duration="7192000" />
+      <workItem from="1545558783928" duration="8712000" />
+      <workItem from="1545567568925" duration="1151000" />
+      <workItem from="1545611187054" duration="6239000" />
+      <workItem from="1545635107421" duration="2523000" />
+      <workItem from="1545638851705" duration="72000" />
+      <workItem from="1545638982056" duration="1193000" />
+      <workItem from="1545640967113" duration="5855000" />
+      <workItem from="1545649614527" duration="3093000" />
+      <workItem from="1545658464584" duration="5825000" />
+      <workItem from="1545697348096" duration="5534000" />
+      <workItem from="1545893287614" duration="747000" />
+      <workItem from="1546053517103" duration="842000" />
+      <workItem from="1546055302528" duration="269000" />
+      <workItem from="1546063997052" duration="1207000" />
+      <workItem from="1546486515257" duration="1000000" />
+      <workItem from="1546487571538" duration="95000" />
+      <workItem from="1546487702448" duration="80000" />
+      <workItem from="1546488027333" duration="29000" />
+      <workItem from="1547968123251" duration="431000" />
+      <workItem from="1548070239762" duration="4587000" />
+      <workItem from="1548119131093" duration="1985000" />
+      <workItem from="1549595514635" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestLucene_test - 2018.12.24 at 19h 42m 02s.xml">
+      <configuration name="TestLucene.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLucene_test - 2018.12.24 at 19h 42m 25s.xml">
+      <configuration name="TestLucene.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLucene_test - 2018.12.24 at 21h 37m 47s.xml">
+      <configuration name="TestLucene.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLucene_testDate - 2018.12.24 at 21h 51m 07s.xml">
+      <configuration name="TestLucene.testDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testCreate - 2019.01.21 at 20h 24m 37s.xml">
+      <configuration name="CuratorFrameworkTests.testCreate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testReadfData - 2019.01.21 at 20h 30m 29s.xml">
+      <configuration name="CuratorFrameworkTests.testReadfData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testReadfData - 2019.01.21 at 20h 31m 11s.xml">
+      <configuration name="CuratorFrameworkTests.testReadfData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testWriteData - 2019.01.21 at 20h 35m 08s.xml">
+      <configuration name="CuratorFrameworkTests.testWriteData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testReadfData - 2019.01.21 at 20h 35m 44s.xml">
+      <configuration name="CuratorFrameworkTests.testReadfData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CuratorFrameworkTests_testReadfData - 2019.01.21 at 20h 36m 42s.xml">
+      <configuration name="CuratorFrameworkTests.testReadfData" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145734000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36157337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992224" weight="0.21938775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64379084" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3291367" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.25719425" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291367" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.37411347" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4977307" weight="0.33673468" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3291367" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.06505295" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32223904" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992224" visible="true" weight="0.10130719" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64379084" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291367" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3291367" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.25719425" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291367" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.2761438" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3291367" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.19969743" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="dangdang" />
+    <module name="maven_springboot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/springboot_test/src/test/java/com/junit/TestDao.java</url>
+          <line>24</line>
+          <properties class="com.junit.TestDao" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/springboot_test/src/test/java/com/junit/TestDao.java</url>
+          <line>31</line>
+          <properties class="com.junit.TestDao" method="test2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/CaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="108" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/coyote/http11/Http11Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="331" lean-forward="true" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar!/com/mysql/jdbc/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5676">
+          <caret line="266" column="57" lean-forward="true" selection-start-line="266" selection-start-column="57" selection-end-line="266" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/resources/mapper/GroupDaoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/entity/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/GroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/java/com/baizhi/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/resources/mapper/StudentDaoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/test/java/com/junit/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/utils/LuceneUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/src/main/webapp/back/student/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/addProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/test/java/com/baizhi/test/TestLucene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/dao/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/java/com/baizhi/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/addProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/webapp/baizhi/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4225">
+          <caret line="169" column="36" selection-start-line="169" selection-start-column="36" selection-end-line="169" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Lucene/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_testShiro/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/test_Lucene/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop_hdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZookeeperDemo/src/main/java/com/baizhi/CuratorFrameworkTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCoreJava/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCoreJava/src/main/java/com/baizhi/TestHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="450" column="47" selection-start-line="450" selection-start-column="47" selection-end-line="450" selection-end-column="47" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>maven_web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40344828" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (test_Lucene)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.40344828" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hadoop_hdfs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.68678164" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.persistence:persistence-api:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.68678164" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

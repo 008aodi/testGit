@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.BannerDao">
+    <!--  查询所有轮播图 -->
+    <select id="findAllBanner" resultType="Banner">
+    	select id,picName,picPath,description,status,createTime,url 
+    	from banner limit #{begin},#{end}
+    </select>
+    <!-- 查询分页总条数 -->
+    <select id="findCount" resultType="int">
+    	select count(*) from banner
+    </select>
+    <!-- 添加轮播图 -->
+    <insert id="addBanner" parameterType="Banner">
+    insert into banner (id,picName,picPath,description,status,createTime,url)
+    values(#{id},#{picName},#{picPath},#{description},#{status},#{createTime},#{url})    
+    </insert>
+    <!-- 删除轮播图 -->
+    <delete id="deleteBanner" parameterType="String">
+    	delete from banner where id=#{id}    
+    </delete>
+    <!-- 修改轮播图  -->
+   	<update id="updateBanner" parameterType="Banner">
+   	update banner
+   	<set>
+   	<if test="picName!=null">picName=#{picName},</if>
+   	<if test="picPath!=null">picPath=#{picPath},</if>
+   	<if test="description!=null">description=#{description},</if>
+   	<if test="status!=null">status=#{status},</if>
+   	<if test="createTime!=null">createTime=#{createTime}</if>
+   	<if test="url!=null">url=#{url}</if>
+   	</set>
+   	where id=#{id}	
+   	</update>
+   	<!--   根据id获取Banner -->
+   	<select id="findBannerById" parameterType="String" resultType="Banner">
+   		select id,picName,picPath,description,status,createTime,url 
+    	from banner where id=#{id}
+   	</select>
+</mapper>
+

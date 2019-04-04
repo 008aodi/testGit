@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jbt-comm-clinic" />
+        <module name="jbt-comm-gene" />
+        <module name="jbt-comm-hos" />
+        <module name="jbt-comm-lab" />
+        <module name="jbt-comm-sdk" />
+        <module name="jbt-comm-starter" />
+        <module name="jbt-comm-support" />
+        <module name="jbt-comm-taikang" />
+        <module name="jbt-integration-him-sdk" />
+        <module name="jbt-integration-him-starter" />
+        <module name="jbt-online" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jbt-online" target="1.8" />
+      <module name="jbtonline" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

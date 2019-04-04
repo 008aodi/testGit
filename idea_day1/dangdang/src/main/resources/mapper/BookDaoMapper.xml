@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.BookDao">
+	<!-- 使用mapper查询功能都会被全局缓存   -->
+	 <!-- <cache></cache> --> 
+	<!--  查找编辑推荐图书  -->
+	<select id="selectByRecommend" resultType="Book">
+	select * from dd_book 
+	</select>
+	<!--  查找热销图书   -->	
+	<select id="selectBySale" resultType="Book">
+		select b.* from (select * from dd_book order by sale desc)b LIMIT 0,8
+	</select>
+	<!--  查找新上架书   -->
+	<select id="selectByCreatedate" resultType="Book">
+		select b.* from (select * from dd_book order by create_date desc)b LIMIT 0,8
+	</select>
+   <!--  查找新书热销图书   -->
+   <select id="selectByCreatedateAndSale" resultType="Book">
+	   select b.* from (select * from dd_book order by create_date,sale desc)b LIMIT 0,8
+   </select>
+	<!--
+   &lt;!&ndash;  根据一级分类id查找图书  &ndash;&gt;
+   	<select id="selectBooksByFid" parameterType="String" resultType="Book" >
+   	select d.* from dd_book d left join dd_category c
+   	on d.category_id=c.id
+   	where c.parent_id=#{fid}
+   	</select>
+   &lt;!&ndash; 根据二级分类id查找图书  &ndash;&gt;
+   <select id="selectBooksBySid" parameterType="String" resultType="Book">
+   	select * from dd_book where category_id=#{sid}
+   </select>
+	&lt;!&ndash;  根据一级分页fid查询总页数  &ndash;&gt;
+	<select id="selectTotalCountByFirstCategoryId" resultType="int">
+		select count(*) from(
+		select * from dd_book d left join dd_category c
+   		on d.category_id=c.id
+   	where c.parent_id=#{fid})	
+	</select>
+	&lt;!&ndash;  根据二级分页sid查询总页数  &ndash;&gt;
+	<select id="selectTotalCountBySecondCategoryId" resultType="int">
+			select count(*) from(
+			select * from dd_book where category_id=#{sid})	
+	</select>
+	&lt;!&ndash;  根据一级分页fid查询books  &ndash;&gt;
+	<select id="selectBooksByFidAndPageCount" resultType="Book">
+		select *from 
+		(select b.*,rownum r from 
+		(select d.* from dd_book d left join dd_category c
+   	on d.category_id=c.id
+   	where c.parent_id=#{fid})b
+		)
+		 where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+	&lt;!&ndash;  根据二级分页sid查询books  &ndash;&gt;
+	<select id="selectBooksBySidAndPageCount" resultType="Book">
+		select *from 
+		(select b.*,rownum r from 
+		(select * from dd_book where category_id=#{sid})b) 
+		 where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+	&lt;!&ndash;  二级页面跳三级页面通过图书id查询图书  &ndash;&gt;
+	<select id="selectBookById" parameterType="String" resultType="Book">
+			select * from dd_book where id=#{id}
+	</select>
+		&lt;!&ndash;  根据图书id修改图书销售数量   &ndash;&gt;
+	<update id="updateSaleByBookId" parameterType="String">
+	update dd_book set sale=#{count}+sale where id=#{bookId}
+	</update>
+	&lt;!&ndash;  按条件&fid查询图书  &ndash;&gt;
+	<select id="selectBooksByPriceAndFid" resultType="Book">
+		    select *from 
+    (select b.*,rownum r from 
+    (select d.* from (select * from dd_book order by price desc) d left join dd_category c
+    on d.category_id=c.id
+    where c.parent_id=#{fid})b
+    )a
+     where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+		<select id="selectBooksBySaleAndFid" resultType="Book">
+		    select *from 
+    (select b.*,rownum r from 
+    (select d.* from (select * from dd_book order by sale desc) d left join dd_category c
+    on d.category_id=c.id
+    where c.parent_id=#{fid})b
+    )a
+     where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+		<select id="selectBooksByCreateAndFid" resultType="Book">
+		    select *from 
+    (select b.*,rownum r from 
+    (select d.* from (select * from dd_book order by create_date desc) d left join dd_category c
+    on d.category_id=c.id
+    where c.parent_id=#{fid})b
+    )a
+     where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+	&lt;!&ndash;  按条件&sid查询图书   &ndash;&gt;
+	<select id="selectBooksByPriceAndSid" resultType="Book">
+		select *from 
+		(select b.*,rownum r from   
+     (select * from (select * from dd_book order by price desc)a
+		 where category_id=#{sid})b)
+		 where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>
+	
+	
+	<select id="selectBooksBySaleAndSid" resultType="Book">
+		select *from 
+		(select b.*,rownum r from   
+     (select * from (select * from dd_book order by sale desc)a
+		 where category_id=#{sid})b)
+		 where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>	
+	
+		<select id="selectBooksByCreateAndSid" resultType="Book">
+		select *from 
+		(select b.*,rownum r from   
+     (select * from (select * from dd_book order by create_date desc)a
+		 where category_id=#{sid})b)
+		 where r&gt;=#{startIndex} and r&lt;=#{endIndex}
+	</select>-->
+</mapper>

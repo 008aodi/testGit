@@ -1,0 +1,11 @@
+com\baizhi\entity\Category.class
+com\baizhi\service\Impl\BookServiceImpl.class
+com\baizhi\service\BookService.class
+com\baizhi\controller\BookController.class
+com\baizhi\controller\CategoryController.class
+com\baizhi\dao\CategoryDao.class
+com\baizhi\service\Impl\CategoryServiceImpl.class
+com\baizhi\Application.class
+com\baizhi\dao\BookDao.class
+com\baizhi\entity\Book.class
+com\baizhi\service\CategoryService.class

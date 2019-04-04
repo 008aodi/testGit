@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.ArticleDao">
+	<!-- 查询所有文章以及所属上师  -->
+	<resultMap type="Article" id="article">
+	<id property="id" column="aid"/>
+	<result property="title" column="title"/>
+	<result property="articlePic" column="articlePic"/>
+	<result property="content" column="content"/>
+	<result property="publicTime" column="publicTime"/>
+	<result property="guruId" column="guruId"/>
+	<association property="guru" javaType="Guru">
+	<id property="id" column="gid"/>
+	<result property="dharnaName" column="dharnaName"/>
+	<result property="photo" column="photo"/>
+	<result property="status" column="status"/>
+	<result property="createTime" column="createTime"/>
+	</association>
+	</resultMap>
+	<select id="findAllArticle" resultMap="article">
+	select 	
+	a.id aid,a.title,a.articlePic,a.content,a.publicTime,a.guruId,
+	g.id gid,g.dharnaName,g.photo,g.status,g.createTime from 
+	article a inner join guru g
+	on a.guruId=g.id
+	limit #{begin},#{end}
+	</select>
+	<!--  查询所有文章数量   -->
+	<select id="findCount" resultType="int">
+	select count(*) from article
+	</select>	
+	<!--  添加文章   -->
+	<update id="addArticle" parameterType="Article">
+	insert into article values(#{id},#{title},#{articlePic},#{content},#{publicTime},#{guruId})	
+	</update>
+	<!--  删除文章  -->
+	<delete id="deleteArticle" parameterType="String">
+		delete from article where id=#{id}
+	</delete>
+	<!--  根据id获取文章  -->
+	<select id="findArticleById" parameterType="String">
+	select id,title,articlePic,content,publicTime,guruId from article
+	</select>
+</mapper>
+

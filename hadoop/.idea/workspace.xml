@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3b613e5-5f40-43b2-83f0-a94405582ca0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/hdfs_day2/target/" />
+    <ignored path="$PROJECT_DIR$/hdsf_java/target/" />
+    <ignored path="$PROJECT_DIR$/../hadoop_mapreduce/target/" />
+    <ignored path="$PROJECT_DIR$/Hadoop_Mapreduce/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/testlambda/TestLambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\Users\Administrator\IdeaProjects\hadoop\hdfs_day2\src\main\java\com\baizhi</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hdsf_java/pom.xml" />
+        <option value="$PROJECT_DIR$/hdfs_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/IPMapper.java" />
+        <option value="$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/IPReducer.java" />
+        <option value="$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/TestHDFS.java" />
+        <option value="$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/CustomJobSubmiter.java" />
+        <option value="$PROJECT_DIR$/../hadoop_mapreduce/pom.xml" />
+        <option value="$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/b.java" />
+        <option value="$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/D.java" />
+        <option value="$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/C.java" />
+        <option value="$PROJECT_DIR$/hdfs_day2/src/test/java/TestDouble.java" />
+        <option value="$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/com/baizhi/demo01/TestMain.java" />
+        <option value="$PROJECT_DIR$/Hadoop_Mapreduce/pom.xml" />
+        <option value="$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/testlambda/TestLambda.java" />
+        <option value="$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/com/baizhi/demo01/CustomJobSubmiter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-19" />
+    <option name="width" value="873" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop_Mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadoop_Mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547967946843" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.119617224" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.baizhi.demo01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\IdeaProjects\hadoop\Hadoop_Mapreduce\src\main\java\com\baizhi\demo01" />
+      <recent name="E:\Users\Administrator\IdeaProjects\hadoop\hdfs_day2\src\main\resources" />
+      <recent name="E:\Users\Administrator\IdeaProjects\hadoop\hdsf_java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="CustomJobSubmiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.demo01.CustomJobSubmiter" />
+      <module name="hadoop_mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.demo01.TestMain" />
+      <module name="Hadoop_Mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDouble.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDouble" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHDFS.TestUpload1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.TestHDFS" />
+      <option name="METHOD_NAME" value="TestUpload1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHDFS.testDeleteWithTrash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hdfs_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.TestHDFS" />
+      <option name="METHOD_NAME" value="testDeleteWithTrash" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="hadoop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="hadoop" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="JUnit.TestDouble.Test1" />
+        <item itemvalue="Application.CustomJobSubmiter" />
+        <item itemvalue="JUnit.TestHDFS.TestUpload1" />
+        <item itemvalue="JUnit.TestHDFS.testDeleteWithTrash" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3b613e5-5f40-43b2-83f0-a94405582ca0" name="Default Changelist" comment="" />
+      <created>1546487777609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546487777609</updated>
+      <workItem from="1546487785284" duration="232000" />
+      <workItem from="1546488061601" duration="956000" />
+      <workItem from="1546490094773" duration="1069000" />
+      <workItem from="1546491212066" duration="116000" />
+      <workItem from="1546491422570" duration="74000" />
+      <workItem from="1546491530415" duration="186000" />
+      <workItem from="1546491753876" duration="228000" />
+      <workItem from="1546492017724" duration="98000" />
+      <workItem from="1546492146286" duration="56000" />
+      <workItem from="1546492239300" duration="131000" />
+      <workItem from="1546492409390" duration="701000" />
+      <workItem from="1546493154062" duration="148000" />
+      <workItem from="1546493339209" duration="68000" />
+      <workItem from="1546493442160" duration="66000" />
+      <workItem from="1546493537548" duration="70000" />
+      <workItem from="1546493640736" duration="143000" />
+      <workItem from="1546493817858" duration="358000" />
+      <workItem from="1546495094381" duration="531000" />
+      <workItem from="1546495709561" duration="4970000" />
+      <workItem from="1546514225231" duration="6762000" />
+      <workItem from="1546853434945" duration="5715000" />
+      <workItem from="1546860958537" duration="962000" />
+      <workItem from="1546862017018" duration="5142000" />
+      <workItem from="1546917982013" duration="2305000" />
+      <workItem from="1546923389612" duration="1307000" />
+      <workItem from="1546926904017" duration="3560000" />
+      <workItem from="1547021045320" duration="678000" />
+      <workItem from="1547022053307" duration="2195000" />
+      <workItem from="1547024509700" duration="410000" />
+      <workItem from="1547025253215" duration="746000" />
+      <workItem from="1547027649060" duration="1162000" />
+      <workItem from="1547029004641" duration="30000" />
+      <workItem from="1547183986288" duration="591000" />
+      <workItem from="1547950700543" duration="312000" />
+      <workItem from="1547967555416" duration="377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestHDFS_TestUpload1 - 2019.01.07 at 20h 23m 45s.xml">
+      <configuration name="TestHDFS.TestUpload1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestHDFS_TestUpload1 - 2019.01.07 at 20h 24m 05s.xml">
+      <configuration name="TestHDFS.TestUpload1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 11h 28m 49s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 11h 29m 24s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 11h 37m 00s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 11h 50m 59s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 12h 01m 21s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 13h 55m 49s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 13h 57m 39s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDouble_Test1 - 2019.01.08 at 13h 58m 04s.xml">
+      <configuration name="TestDouble.Test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42455000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-19" y="0" width="873" height="728" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965035" visible="true" weight="0.18450184" />
+      <window_info id="Structure" order="1" sideWeight="0.50510204" side_tool="true" weight="0.20196672" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" id="Web" order="7" sideWeight="0.5034965" side_tool="true" visible="true" weight="0.18450184" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.20918368" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.33163264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.48639455" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49892008" visible="true" weight="0.2509225" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="9" sideWeight="0.5010799" side_tool="true" visible="true" weight="0.14599092" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hdsf_java/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01.java" />
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/IPMapper.java" />
+    <entry file="file://$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/IPReducer.java" />
+    <entry file="jar://D:/repository/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.jar!/org/apache/hadoop/util/Tool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hadoop_mapreduce/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/TestHDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/B.java" />
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/test/java/TestDouble.java" />
+    <entry file="file://$PROJECT_DIR$/../hadoop_mapreduce/src/main/java/com/baizhi/demo01/CustomJobSubmiter.java" />
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/A.java" />
+    <entry file="file://$PROJECT_DIR$/hdfs_day2/src/main/java/com/baizhi/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/com/baizhi/demo01/TestMain.java" />
+    <entry file="file://$PROJECT_DIR$/Hadoop_Mapreduce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/com/baizhi/demo01/CustomJobSubmiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hadoop_Mapreduce/src/main/java/testlambda/TestLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-sorted>false</show-sorted>
+          </artifact-editor>
+          <last-edited>hdfs_day2:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.68678164" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hadoop_Mapreduce</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.119617224" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-daemon:commons-daemon:1.0.13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.68678164" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

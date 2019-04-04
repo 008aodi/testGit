@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hadoop_hdfs:war">
+    <output-path>$PROJECT_DIR$/hadoop_hdfs/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hadoop_hdfs</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hadoop_hdfs.war">
+      <element id="artifact" artifact-name="hadoop_hdfs:war exploded" />
+    </root>
+  </artifact>
+</component>

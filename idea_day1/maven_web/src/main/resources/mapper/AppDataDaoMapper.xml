@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.AppDataDao">
+    <!--  首页查询所有轮播图 -->
+    <select id="findBanner" resultType="Banner">
+    	select id,picName,picPath
+    	from banner limit 0,5
+    </select>
+    <!-- 首页查询前6的专辑   -->
+    	<select id="findAlbum" resultType="Body">
+    		select coverImg thumbnail,title,author,publicTime create_date 
+    		from album limit 0,6
+    	</select>
+    	<!--  查询文章按状态为0的查询  -->
+    	<select id="findArtical" resultType="Artical">
+    	  select photo thumbnail,title,dharnaName,content,publicTime create_date   
+    	   	from guru g inner join article a
+    	   	on a.guruId=g.id
+    	   	where status=0
+    	</select>
+    	<!--  闻界面查专辑   -->
+    	    	<select id="findWenAlbum" resultType="WenBody">
+    		select coverImg thumbnail,title,author,publicTime create_date,count set_count 
+    		from album limit 0,6
+    	</select>
+    	<!--  思界面文章  -->
+    	<select id="findSiArtical" resultType="SiArtical">
+    	  select photo thumbnail,title,dharnaName,content,publicTime create_date   
+    	   	from guru g inner join article a
+    	   	on a.guruId=g.id
+    	   	where status=0
+    	</select>
+    	<!-- 思详情 -->
+    	<select id="findSiDetail" resultType="SiDetail" parameterType="String">
+    		select id,articlePic link,content ext from article where id=#{id}
+    	</select>
+    	<!-- 闻详情，查询所有专辑的所有章节   -->
+    	<select id="findWenDetail" parameterType="String" resultType="WenDetail">
+    	select coverImg thumbnail,title,score,author,brodecast broadcast,
+    	count set_count,description brief,publicTime create_date 
+    	from album 
+    	where id=#{id}   	
+    	</select>
+    	<!-- 闻详情，根据id查询专辑的所有章节   -->
+    	<select id="findWenChapter" parameterType="String" resultType="WenChapter">
+    	select name title,url download_url,size,length duration from chapter 
+    	where AlbumId=#{id}
+    	</select>
+    	<!--  根据手机号获取用户  -->
+    	<select id="findUser" parameterType="String" resultType="User">
+    	select password,salt from user where phoneNum=#{phone}
+    	</select>
+    	<!-- 查询用户UserData   -->
+    	<select id="findUserData" resultType="UserData">
+    	select 
+    	password,dharmaName farmington,id uid,name nickname,sex gender,photo,location,province,city,sign description,phoneNum phone 
+    	from user where phoneNum=#{phone}   	
+    	</select>
+    	<!--  用户注册 -->
+    	<insert id="regist" parameterType="User">
+    	insert into user (id,password,phoneNum,salt,creatTime,status)values(#{id},#{password},#{phoneNum},#{salt},#{creatTime},#{status})
+    	</insert>
+    	<!-- 修改用户   -->
+    	<update id="updateUser" parameterType="UserData">
+    		update user 
+    		<set>
+    		<if test="gender!=null">sex=#{gender},</if>
+    		<if test="photo!=null">photo=#{photo},</if>
+    		<if test="location!=null">location=#{location},</if>
+    		<if test="description!=null">sign=#{description},</if>
+    		<if test="nickname!=null">name=#{nickname},</if>
+    		<if test="province!=null">province=#{province},</if>
+    		<if test="city!=null">city=#{city},</if>
+    		<if test="password!=null">password=#{password}</if>
+    		</set>
+    		where id=#{uid}
+    	</update>
+    	<!-- 根据uid查询User -->
+    	<select id="findUserByUid" parameterType="String" resultType="User">
+    	select * from user where id=#{uid}
+    	</select>
+</mapper>
+

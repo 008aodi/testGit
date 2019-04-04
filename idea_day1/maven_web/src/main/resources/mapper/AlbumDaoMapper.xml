@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.AlbumDao">
+	<!--  查询所有专辑信息  -->
+	<resultMap type="Album" id="album">
+	<id property="id" column="aid"/>
+	<result property="title" column="title"/>
+	<result property="score" column="score"/>
+	<result property="brodecast" column="brodecast"/>
+	<result property="author" column="author"/>
+	<result property="description" column="description"/>
+	<result property="publicTime" column="publicTime"/>
+	<result property="count" column="count"/>
+	<result property="coverImg" column="coverImg"/>
+	<result property="status" column="status"/>
+	<collection property="children" ofType="Chapter">
+	<id property="id" column="cid"/>
+	<result property="title" column="name"/>
+	<result property="url" column="url"/>
+	<result property="size" column="size"/>
+	<result property="length" column="length"/>
+	<result property="times" column="times"/>
+	<result property="createTime" column="createTime"/>
+	<result property="AlbumId" column="AlbumId"/>
+	</collection>
+	</resultMap>
+	<select id="findAllAlbum" resultMap="album">
+	select 
+	a.id aid,a.title,a.score,a.brodecast,a.author,a.description,a.publicTime,
+	a.count,a.coverImg,a.status,c.id cid,c.name,c.url,c.size,c.length,c.times,c.createTime,c.AlbumId 
+	from album a left join chapter c 
+	on a.id=c.AlbumId 
+	limit #{begin},#{end}
+	</select>
+	<!-- 查询总条数  -->
+	<select id="findTotal" resultType="int">
+	select count(*) from chapter	
+	</select>
+	<!-- 添加album -->
+	<insert id="addAlbum" parameterType="Album">
+	insert into album 
+	values(#{id},#{title},#{score},#{brodecast},#{author},#{description},#{publicTime},#{count},#{coverImg},#{status})	
+	</insert>
+</mapper>
+

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test_Lucene:war">
+    <output-path>$PROJECT_DIR$/test_Lucene/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test_Lucene</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="test_Lucene.war">
+      <element id="artifact" artifact-name="test_Lucene:war exploded" />
+    </root>
+  </artifact>
+</component>

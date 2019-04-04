@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.CategoryDao">
+	<!-- 使用mapper查询功能都会被全局缓存   -->
+	<resultMap type="Category" id="c1">
+	<id column="c1id" property="id"/>
+	<result column="c1name" property="name"/>
+	<result column="c1parentid" property="parent_id"/>
+	<result column="c1levels" property="levels"/>
+	<collection property="list" ofType="Category">
+	<id column="c2id" property="id"/>
+	<result column="c2name" property="name"/>
+	<result column="c2parentid" property="parent_id"/>
+	<result column="c2levels" property="levels"/>	
+	</collection>
+	 </resultMap>
+	<select id="selectAllCategory" resultMap="c1">
+	select 
+	c1.id c1id,c1.name c1name,c1.parent_id c1parentid,c1.levels c1levels,
+	c2.id c2id,c2.name c2name,c2.parent_id c2parentid,c2.levels c2levels
+	from dd_category c1 inner join dd_category c2
+	on c1.id=c2.parent_id
+	</select>
+<!--	  二级页面分类查询所有书籍
+	<resultMap type="Category" id="byid">
+	<id column="c1id" property="id"/>
+	<result column="c1name" property="name"/>
+	<result column="c1parentid" property="parent_id"/>
+	<result column="c1levels" property="levels"/>
+	<collection property="list" ofType="Category">
+	<id column="c2id" property="id"/>
+	<result column="c2name" property="name"/>
+	<result column="c2parentid" property="parent_id"/>
+	<result column="c2levels" property="levels"/>	
+	</collection>
+	 </resultMap>
+	<select id="selectCategoryById" parameterType="String" resultMap="byid">
+	select 
+	c1.id c1id,c1.name c1name,c1.parent_id c1parentid,c1.levels c1levels,
+	c2.id c2id,c2.name c2name,c2.parent_id c2parentid,c2.levels c2levels
+	from dd_category c1 inner join dd_category c2
+	on c1.id=c2.parent_id
+	where c1.id=#{fid}	
+	</select>
+	<select id="selelctBookCountByCategoryId" resultType="java.lang.Integer">
+			select count(*) from dd_book where category_id=#{id}
+	</select>-->
+</mapper>
