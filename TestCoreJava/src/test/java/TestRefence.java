@@ -3,6 +3,8 @@ import com.baizhi.test.RSA;
 import org.junit.Test;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class TestRefence {
@@ -27,5 +29,15 @@ public class TestRefence {
             }
         } catch (Exception e) {
         }
+    }
+    @Test
+    public void testMethodReference(){
+        List names = new ArrayList();
+        names.add("Google");
+        names.add("Runoob");
+        names.add("Taobao");
+        names.add("Baidu");
+        names.add("Sina");
+        names.forEach(System.out::println);
     }
 }
