@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class RSA {
     public static final String RSA_ALGORITHM = "RSA";
-    public static String SIGNATURE_ALGORITHM = "SHAwithRSA";
+    public static String SIGNATURE_ALGORITHM = "SHA1withRSA";
     public static String RSA_PUBLIC_KEY = "RSAPublicKey";
     public static String RSA_PRIVATE_KEY = "RSAPrivateKey";
 

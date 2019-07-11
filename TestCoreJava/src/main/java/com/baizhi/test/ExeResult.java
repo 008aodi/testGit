@@ -2,6 +2,9 @@ package com.baizhi.test;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import java.util.concurrent.Future;
 
@@ -10,6 +13,7 @@ import java.util.concurrent.Future;
  * @param <T>
  */
 public class ExeResult<T> {
+    private static Logger logger = LoggerFactory.getLogger(ExeResult.class);
     private static final long serialVersionUID = 2992987576262574064L;
     private boolean async = false;
     private boolean success = true;
@@ -62,6 +66,7 @@ public class ExeResult<T> {
     }
 
     public long getUseTime() {
+        logger.info("{}-获取用时",useTime);
         return useTime;
     }
 
@@ -70,6 +75,7 @@ public class ExeResult<T> {
         return this;
     }
     public  static ExeResult start(){
+        logger.info("{}-开始计时",System.currentTimeMillis());
         ExeResult result = new ExeResult();
         return result.setStartTime(System.currentTimeMillis());
     }
@@ -77,6 +83,7 @@ public class ExeResult<T> {
         if (this.endTime<=0L){
             this.setEndTime(System.currentTimeMillis());
         }
+        logger.info("{}-结束计时",System.currentTimeMillis());
         return this;
     }
     public ExeResult putResult(T result){
