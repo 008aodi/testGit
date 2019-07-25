@@ -12,6 +12,7 @@
         <module name="spring_shiro" />
         <module name="springboot_day1" />
         <module name="TestCoreJava" />
+        <module name="utilSort" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
